@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Drive Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">Drive<span>Hub</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <nav class="nav-links" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="inventory.html">Cars</a>
+        <a href="finCal.html">Financing Calculator</a>
+        <a href="compare.html">Compare Cars</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Get in touch</h1>
+        <p>Questions about a car, a test drive or financing? Our team will get back to you within one business day.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:56px">
+      <div class="container contact-grid">
+
+        <div>
+          <div class="info-card"><small>Phone</small><strong>+1 (555) 013-0199</strong></div>
+          <div class="info-card"><small>Email</small><strong>hello@drivehub.example</strong></div>
+          <div class="info-card"><small>Showroom</small><strong>123 Demo Street, Sample City</strong></div>
+          <div class="info-card"><small>Opening hours</small><strong>Mon - Fri 9am - 7pm<br>Sat 10am - 5pm</strong></div>
+        </div>
+
+        <form class="panel" id="contact-form" novalidate>
+          <div class="form-success" id="success" role="status">Thank you! Your message was received. We will contact you soon.</div>
+
+          <div class="field" id="f-name">
+            <label for="name">Full name</label>
+            <input class="input" id="name" type="text" autocomplete="name">
+            <p class="error">Please enter your name.</p>
+          </div>
+          <div class="field-row">
+            <div class="field" id="f-email">
+              <label for="email">Email</label>
+              <input class="input" id="email" type="email" autocomplete="email">
+              <p class="error">Please enter a valid email address.</p>
+            </div>
+            <div class="field">
+              <label for="phone">Phone (optional)</label>
+              <input class="input" id="phone" type="tel" autocomplete="tel">
+            </div>
+          </div>
+          <div class="field">
+            <label for="interest">Interested in</label>
+            <select class="select" id="interest"></select>
+          </div>
+          <div class="field" id="f-message">
+            <label for="message">Message</label>
+            <textarea class="input" id="message"></textarea>
+            <p class="error">Please write a short message.</p>
+          </div>
+          <button class="btn" type="submit">Send message</button>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="logo" href="index.html">Drive<span>Hub</span></a>
+          <p>Premium pre-owned cars with transparent pricing and honest advice.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inventory.html">Cars</a></li>
+            <li><a href="finCal.html">Financing Calculator</a></li>
+            <li><a href="compare.html">Compare Cars</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>+1 (555) 013-0199</li>
+            <li><a href="mailto:hello@drivehub.example">hello@drivehub.example</a></li>
+            <li>123 Demo Street, Sample City</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Opening hours</h4>
+          <ul>
+            <li>Mon - Fri: 9am - 7pm</li>
+            <li>Saturday: 10am - 5pm</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> Drive Hub. All rights reserved.</span>
+        <span>University portfolio project - all data is fictional.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

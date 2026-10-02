@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drive Hub | Find Your Perfect Car</title>
+  <meta name="description" content="Drive Hub - premium pre-owned cars, transparent pricing and easy financing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">Drive<span>Hub</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <nav class="nav-links" aria-label="Main">
+        <a class="active" href="index.html">Home</a>
+        <a href="inventory.html">Cars</a>
+        <a href="finCal.html">Financing Calculator</a>
+        <a href="compare.html">Compare Cars</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <video class="hero-video" autoplay muted loop playsinline preload="auto">
+        <source src="video/car%20video.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <p class="eyebrow">Premium pre-owned cars</p>
+        <h1 class="hero-title">
+          <span class="line"><span>Find your</span></span>
+          <span class="line"><span class="outline">perfect car</span></span>
+        </h1>
+        <p class="hero-sub">Discover the car that fits your lifestyle and budget.</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="inventory.html">Browse Inventory</a>
+          <a class="btn btn-outline" href="finCal.html">Financing Calculator</a>
+        </div>
+      </div>
+
+      <button class="video-toggle" type="button">Pause video</button>
+      <div class="scroll-hint">Scroll</div>
+    </section>
+
+    <!-- BRAND MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>BMW</span><span>Mercedes-Benz</span><span>Audi</span><span>Quality Checked</span><span>Transparent Pricing</span><span>Easy Financing</span>
+        <span>BMW</span><span>Mercedes-Benz</span><span>Audi</span><span>Quality Checked</span><span>Transparent Pricing</span><span>Easy Financing</span>
+      </div>
+    </div>
+
+    <!-- FEATURED CARS -->
+    <section class="section dark" id="featured">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Handpicked for you</p>
+          <h2>Featured Cars</h2>
+          <p>Watch each car turn from the front to the rear. Hover to pause, or tap a car to flip it yourself.</p>
+        </div>
+        <div class="car-grid" id="featured-grid"></div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Why choose us</p>
+          <h2>We make car buying simple and reliable</h2>
+        </div>
+        <div class="cards-3">
+          <article class="why-card reveal d1">
+            <div class="num">01</div>
+            <h3>Quality Vehicles</h3>
+            <p>Every car goes through a 150-point inspection before it reaches our showroom. We check the engine, brakes, electronics and bodywork, and we only sell cars we would drive ourselves.</p>
+          </article>
+          <article class="why-card reveal d2">
+            <div class="num">02</div>
+            <h3>Transparent Pricing</h3>
+            <p>The price you see is the price you pay. No hidden fees, no surprise add-ons. Each listing shows the full history and mileage, so you can compare with confidence.</p>
+          </article>
+          <article class="why-card reveal d3">
+            <div class="num">03</div>
+            <h3>Expert Support</h3>
+            <p>Our advisors are here before, during and after your purchase. They answer your questions, explain your options and help you pick the right car without any sales pressure.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section light-gray" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Services</p>
+          <h2>Everything you need for a smooth car buying</h2>
+        </div>
+        <div class="services-grid">
+          <article class="service reveal d1">
+            <div class="icon">🚗</div>
+            <h3>Car Sales</h3>
+            <p>Browse a carefully selected range of premium pre-owned cars. Book a test drive and drive away with a car that has been inspected, cleaned and fully documented.</p>
+          </article>
+          <article class="service reveal d2">
+            <div class="icon">💳</div>
+            <h3>Financing</h3>
+            <p>Flexible loan plans with competitive rates and terms from 24 to 84 months. Use our calculator to see your monthly payment before you decide.</p>
+          </article>
+          <article class="service reveal d3">
+            <div class="icon">🔄</div>
+            <h3>Vehicle Trade-In</h3>
+            <p>Want to upgrade? We value your current car fairly and quickly, and you can use the trade-in value as part of your down payment.</p>
+          </article>
+          <article class="service reveal d3">
+            <div class="icon">🛠️</div>
+            <h3>After-Sales Support</h3>
+            <p>Our relationship does not end at the handover. Enjoy a warranty, service reminders, maintenance bookings and help whenever you need it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section dark" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Reviews</p>
+          <h2>What our customers say</h2>
+        </div>
+        <div class="cards-3">
+          <article class="review reveal d1">
+            <div class="stars">★★★★★</div>
+            <blockquote>"I was nervous about buying a used car, but the team showed me the full history and answered every question. The BMW drives like new."</blockquote>
+            <div class="reviewer"><div class="avatar">SM</div><div><strong>Sarah Mitchell</strong><span>Bought a BMW 330i</span></div></div>
+          </article>
+          <article class="review reveal d2">
+            <div class="stars">★★★★★</div>
+            <blockquote>"The financing calculator made it easy to plan my budget. No surprises at the end and the paperwork was done in under an hour."</blockquote>
+            <div class="reviewer"><div class="avatar">DK</div><div><strong>Daniel Karim</strong><span>Bought an Audi A4</span></div></div>
+          </article>
+          <article class="review reveal d3">
+            <div class="stars">★★★★☆</div>
+            <blockquote>"Fair trade-in value for my old car and a spotless Mercedes in return. Great service, and they even called a week later to check how I was doing."</blockquote>
+            <div class="reviewer"><div class="avatar">LP</div><div><strong>Laura Peterson</strong><span>Bought a Mercedes C 200</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINANCING -->
+    <section class="section" id="financing">
+      <div class="container">
+        <div class="finance-box reveal">
+          <div>
+            <p class="eyebrow">Financing</p>
+            <h2>Find a financing plan that fits your budget</h2>
+            <p>Choose a car, set your down payment, loan term and interest rate, and see your estimated monthly payment instantly.</p>
+            <a class="btn" href="finCal.html">Financing Calculator</a>
+          </div>
+          <div class="finance-mock" aria-hidden="true">
+            <small>Estimated monthly payment</small>
+            <div class="big">$612</div>
+            <small>48 months &middot; 5.9% APR</small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="logo" href="index.html">Drive<span>Hub</span></a>
+          <p>Premium pre-owned cars with transparent pricing and honest advice.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inventory.html">Cars</a></li>
+            <li><a href="finCal.html">Financing Calculator</a></li>
+            <li><a href="compare.html">Compare Cars</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>+1 (555) 013-0199</li>
+            <li><a href="mailto:hello@drivehub.example">hello@drivehub.example</a></li>
+            <li>123 Demo Street, Sample City</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Opening hours</h4>
+          <ul>
+            <li>Mon - Fri: 9am - 7pm</li>
+            <li>Saturday: 10am - 5pm</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> Drive Hub. All rights reserved.</span>
+        <span>University portfolio project - all data is fictional.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
