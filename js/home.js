@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var grid = document.getElementById("featured-grid");
   if (!grid) return;
 
-  grid.innerHTML = CARS.map(function (c, i) {
+  grid.innerHTML = CARS.slice(0, 3).map(function (c, i) {
     return (
       '<article class="car-card reveal d' + i + '">' +
         '<div class="flip" tabindex="0" aria-label="' + c.brand + ' ' + c.model + ' - front and rear view">' +

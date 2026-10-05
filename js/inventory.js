@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             '<div class="thumbs">' +
               '<button type="button" class="on" data-src="' + c.front + '" aria-label="Front view"><img src="' + c.front + '" alt=""></button>' +
               '<button type="button" data-src="' + c.back + '" aria-label="Rear view"><img src="' + c.back + '" alt=""></button>' +
+              (c.interior ? '<button type="button" data-src="' + c.interior + '" aria-label="Interior view"><img src="' + c.interior + '" alt=""></button>' : '') +
             '</div>' +
           '</div>' +
           '<div class="inv-info">' +
